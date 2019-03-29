@@ -2,20 +2,29 @@
   <div class="google-map" id="map"></div>
 </template>
 
-<style scoped>  
+<style>  
 .google-map {
   height: 500px;
   width: 500px;
-  position: relative;
+  position: absolute;
   top: 100px;
-  left: 50px;
-  margin: 0 auto;
 }
 </style> 
 
 <script> 
-
 export default {
-  name: 'Gmap'
+  name: 'Gmap',
+  data(){
+    return{
+      // element: '#map',
+      // options:{
+      //   zoom: 1,
+      //   center: new google.maps.LatLng(0,0)
+      // }
+    }
+  },
+  created:function(){
+    // var map = new google.maps.Map(this.element, this.options);
+  }
 };
 </script>  

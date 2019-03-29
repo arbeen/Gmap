@@ -5,7 +5,6 @@
                 <span class="mdc-top-app-bar__title">Gmaps</span>
             </section>
         </div>
-        
     </header>
 </template>
 

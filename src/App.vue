@@ -3,8 +3,8 @@
     <navbar />
     <div class="mdc-layout-grid">
       <div class="mdc-layout-grid__inner">
-        <Gmap class="mdc-layout-grid__cell"></Gmap>
-        <WeatherBox ref="wb" class="mdc-layout-grid__cell"></WeatherBox>
+        <div class="mdc-layout-grid__cell"><Gmap></Gmap></div>
+        <div class="mdc-layout-grid__cell"><WeatherBox></WeatherBox></div>
       </div>
     </div>
     
