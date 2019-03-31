@@ -1,29 +1,4 @@
 # gmaps
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Gmaps is a simple weather app that displays the weather of the place you click on the map provided by the google api.
+Gmaps is built with material.io for design and Vue.js for functionality.
