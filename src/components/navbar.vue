@@ -1,5 +1,5 @@
 <template>
-    <header class="mdc-top-app-bar">
+    <header class="mdc-top-app-bar red">
         <div class="mdc-top-app-bar__row">
             <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
                 <span class="mdc-top-app-bar__title">Gmaps</span>
@@ -8,6 +8,12 @@
     </header>
 </template>
 
+<style scoped>
+	span{
+		font-size: 1.8em;
+	}
+</style>
+
 <script>
 export default {
     name: 'navbar'
@@ -15,6 +21,3 @@ export default {
 
 </script>
 
-<style scoped>
-
-</style>

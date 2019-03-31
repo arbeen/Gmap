@@ -4,11 +4,11 @@
 
 <style>  
 .google-map {
-  height: 500px;
-  width: 500px;
+  height: 35em;
+  width: 45%;
   position: absolute;
-  top: 100px;
-  left: 5em;
+  margin-top: 4em;
+  left: 2em;
 }
 </style> 
 
@@ -33,7 +33,6 @@ export default {
     removeMarker: function(){
       console.log(this.markers.length);
       for (var i = 0; i < this.markers.length; i++) {
-        console.log(this.markers[i]);
         this.markers[i].setMap(null);
       }
     }
@@ -41,7 +40,7 @@ export default {
   mounted:function(){
     const element = document.getElementById('map');
     const options = {
-      zoom: 1,
+      zoom: 1.4,
       center: new google.maps.LatLng(0,0)
     }
     var map = new google.maps.Map(element, options);

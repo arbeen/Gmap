@@ -3,11 +3,10 @@
     <navbar />
     <div class="mdc-layout-grid">
       <div class="mdc-layout-grid__inner">
-        <div class="mdc-layout-grid__cell"><Gmap></Gmap></div>
+        <div class="mdc-layout-grid__cell"><Gmap /></div>
         <div class="mdc-layout-grid__cell"><WeatherBox ref="WeatherBox"></WeatherBox></div>
       </div>
     </div>
-    
   </div>
 </template>
 
@@ -40,4 +39,3 @@ export default {
   }
 }
 </script>
-
